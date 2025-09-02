@@ -1,0 +1,25 @@
+{
+  "name": "mitrokhin-8362de",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hirelens-challenges/Mitrokhin-8362de.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hirelens-challenges/Mitrokhin-8362de/issues"
+  },
+  "homepage": "https://github.com/hirelens-challenges/Mitrokhin-8362de#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
