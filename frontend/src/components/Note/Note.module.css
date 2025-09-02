@@ -1,0 +1,30 @@
+.note {
+	display: flex;
+	align-items: center;
+	justify-content: space-between; /* separa texto de los botones */
+	padding: 4px 0;
+}
+
+.noteContent {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	flex: 1; /* ocupa todo el espacio disponible */
+}
+
+.noteButtons {
+	display: flex;
+	gap: 6px;
+}
+
+.completed {
+	text-decoration: line-through;
+	color: gray;
+}
+
+.editInput {
+	flex: 1;
+	padding: 4px 8px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
